@@ -25,6 +25,7 @@ export default function ProfileCard() {
               rel="noopener noreferrer"
             >
               {label}
+              <span className="sr-only"> (opens in new tab)</span>
             </a>
           </li>
         ))}

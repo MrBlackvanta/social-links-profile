@@ -5,6 +5,7 @@
   src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
   font-weight: 100 900;
   font-style: normal;
+  font-display: swap;
 }
 
 :root {
@@ -41,10 +42,10 @@ body {
   @apply bg-grey-700 text-preset-2-bold block w-full rounded-lg p-3 text-center transition-colors duration-300 ease-in-out;
   @apply hover:bg-green hover:text-grey-900;
   @apply focus-visible:bg-green focus-visible:text-grey-900;
-  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-grey-800;
+  @apply focus-visible:ring-offset-grey-800 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:outline-none;
 }
 
 @utility footer-link {
-  @apply text-green font-bold rounded-sm transition-colors;
-  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green focus-visible:ring-offset-2 focus-visible:ring-offset-grey-900;
+  @apply text-green rounded-sm font-bold transition-colors;
+  @apply focus-visible:ring-green focus-visible:ring-offset-grey-900 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none;
 }
