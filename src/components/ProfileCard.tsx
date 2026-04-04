@@ -7,7 +7,7 @@ export default function ProfileCard() {
         <img
           src={avatar}
           alt="Abdelrhman Abdelaal"
-          className="mx-auto mb-6 size-22 rounded-full object-cover object-[50%_20%]"
+          className="mx-auto mb-6 size-22 rounded-full object-cover object-[50%_15%]"
         />
         <figcaption className="text-preset-1">Abdelrhman Abdelaal</figcaption>
       </figure>

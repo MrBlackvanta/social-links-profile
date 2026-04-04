@@ -23,8 +23,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/MrBlackvanta/qr-code-component-v2)
-- Live Site URL: [Netlify](https://vanta-qr-code-component.netlify.app)
+- Solution URL: [GitHub](https://github.com/MrBlackvanta/social-links-profile)
+- Live Site URL: [Netlify](https://vanta-social-links-profile.netlify.app)
 
 ## My process
 
@@ -32,18 +32,19 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - React + Vite
 - TypeScript
-- Tailwind CSS (utility-first styling)
-- Component-based structure (`QRCodeCard` in `src/components`)
-- Mobile-first layout with responsive utilities
-- Asset imports (local image in `src/assets/image-qr-code.png`)
+- Tailwind CSS v4 (`@theme` tokens, `@utility` for typography and social-link styles)
+- Component-based layout (`ProfileCard` in `src/components`)
+- Mobile-first, centered card on a full-viewport background (`h-dvh`, `max-w-96`)
+- Inter variable font loaded locally (`src/assets/fonts`)
+- Avatar and social assets under `src/assets` (e.g. `avatar-abdelrhman.webp`)
 
 ### What I learned
 
-- Converting a static design into a component-based app using React props and clean markup.
-- Using Tailwind CSS classes in JSX for rapid, consistent styling and spacing.
-- Structuring the app to keep `QRCodeCard` reusable and isolated (presentation-only component).
-- Setting up the project with Vite and TypeScript for fast development and type safety.
-- Importing images in React and keeping static assets at `src/assets`.
+- Turning a profile mockup into a small React tree: semantic regions (`article`, `figure`, list of links) without over-abstracting.
+- Using Tailwind v4’s theme layer for brand colors and reusable `@utility` classes (`text-preset-*`, `social-link`) so JSX stays readable.
+- Building accessible social rows: full-size anchor overlays on list items for a large tap/click target.
+- Pairing Vite path aliases with TypeScript for clean imports (`components`, `assets`).
+- Keeping the profile card as a focused, mostly static component while `App` owns page chrome (background, footer attribution).
 
 ## Author
 
