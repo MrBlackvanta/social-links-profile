@@ -10,7 +10,7 @@ export default function App() {
         Challenge by{" "}
         <a
           href="https://www.frontendmentor.io?ref=challenge"
-          className="text-green font-bold"
+          className="footer-link"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -19,7 +19,9 @@ export default function App() {
         . Coded by{" "}
         <a
           href="https://www.linkedin.com/in/abdelrhman-vanta/"
-          className="text-green font-bold"
+          className="footer-link"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Abdelrhman Abdelaal
         </a>

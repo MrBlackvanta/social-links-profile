@@ -38,5 +38,13 @@ body {
 }
 
 @utility social-link {
-  @apply bg-grey-700 text-preset-2-bold hover:bg-green hover:text-grey-900 block rounded-lg p-3 text-center transition-colors duration-300 ease-in-out;
+  @apply bg-grey-700 text-preset-2-bold block w-full rounded-lg p-3 text-center transition-colors duration-300 ease-in-out;
+  @apply hover:bg-green hover:text-grey-900;
+  @apply focus-visible:bg-green focus-visible:text-grey-900;
+  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-grey-800;
+}
+
+@utility footer-link {
+  @apply text-green font-bold rounded-sm transition-colors;
+  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green focus-visible:ring-offset-2 focus-visible:ring-offset-grey-900;
 }
