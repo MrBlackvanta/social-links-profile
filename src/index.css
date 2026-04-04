@@ -38,5 +38,5 @@ body {
 }
 
 @utility social-link {
-  @apply bg-grey-700 text-preset-2-bold hover:bg-green hover:text-grey-900 relative rounded-lg p-3 text-center transition-colors duration-300 ease-in-out [&>a]:absolute [&>a]:inset-0;
+  @apply bg-grey-700 text-preset-2-bold hover:bg-green hover:text-grey-900 block rounded-lg p-3 text-center transition-colors duration-300 ease-in-out;
 }

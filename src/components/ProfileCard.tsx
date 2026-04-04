@@ -1,5 +1,20 @@
 import avatar from "assets/images/avatar-abdelrhman.webp";
 
+const SOCIAL_LINKS = [
+  {
+    label: "GitHub",
+    href: "https://github.com/MrBlackvanta",
+  },
+  {
+    label: "Frontend Mentor",
+    href: "https://www.frontendmentor.io/profile/MrBlackvanta",
+  },
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/abdelrhman-vanta",
+  },
+] as const;
+
 export default function ProfileCard() {
   return (
     <article className="bg-grey-800 text-preset-2 grid place-items-center rounded-xl p-6 text-center text-white md:p-10">
@@ -16,30 +31,18 @@ export default function ProfileCard() {
       </p>
       <p className="mb-6">&quot;Front-end developer and avid learner.&quot;</p>
       <ul className="grid w-full gap-4">
-        <li className="social-link">
-          <a
-            href="https://github.com/MrBlackvanta"
-            target="_blank"
-            rel="noopener noreferrer"
-          />
-          GitHub
-        </li>
-        <li className="social-link">
-          <a
-            href="https://www.frontendmentor.io/profile/MrBlackvanta"
-            target="_blank"
-            rel="noopener noreferrer"
-          />
-          Frontend Mentor
-        </li>
-        <li className="social-link">
-          <a
-            href="https://www.linkedin.com/in/abdelrhman-vanta"
-            target="_blank"
-            rel="noopener noreferrer"
-          />
-          LinkedIn
-        </li>
+        {SOCIAL_LINKS.map(({ label, href }) => (
+          <li key={href}>
+            <a
+              className="social-link"
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {label}
+            </a>
+          </li>
+        ))}
       </ul>
     </article>
   );

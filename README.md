@@ -1,6 +1,6 @@
-# Frontend Mentor - QR code component solution
+# Frontend Mentor - Social links profile solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -42,7 +42,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - Turning a profile mockup into a small React tree: semantic regions (`article`, `figure`, list of links) without over-abstracting.
 - Using Tailwind v4’s theme layer for brand colors and reusable `@utility` classes (`text-preset-*`, `social-link`) so JSX stays readable.
-- Building accessible social rows: full-size anchor overlays on list items for a large tap/click target.
+- Building accessible social links: visible labels live inside each `<a>` so the link name matches what sighted users read and screen readers announce it correctly.
 - Pairing Vite path aliases with TypeScript for clean imports (`components`, `assets`).
 - Keeping the profile card as a focused, mostly static component while `App` owns page chrome (background, footer attribution).
 
