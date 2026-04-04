@@ -2,8 +2,8 @@ import { ProfileCard } from "components";
 
 export default function App() {
   return (
-    <div className="bg-grey-900 relative grid h-dvh place-content-center px-6.75">
-      <main>
+    <div className="bg-grey-900 relative grid h-dvh w-full grid-cols-1 place-content-center px-6.75">
+      <main className="mx-auto w-full max-w-96">
         <ProfileCard />
       </main>
       <footer className="text-preset-2 absolute bottom-4 w-full text-center font-light text-white">

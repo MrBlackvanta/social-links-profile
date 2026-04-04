@@ -2,7 +2,7 @@ import avatar from "assets/images/avatar-abdelrhman.webp";
 
 export default function ProfileCard() {
   return (
-    <article className="bg-grey-800 text-preset-2 grid w-full max-w-96 place-items-center rounded-xl p-6 text-white md:p-10">
+    <article className="bg-grey-800 text-preset-2 grid place-items-center rounded-xl p-6 text-center text-white md:p-10">
       <figure>
         <img
           src={avatar}
