@@ -21,7 +21,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 ### Links
 
 - Solution URL: [GitHub](https://github.com/MrBlackvanta/social-links-profile)
-- Live Site URL: [Netlify](https://vanta-social-links-profile.netlify.app)
+- Live Site URL: [Cloudflare](https://social-links-profile.abdelrhman-ahmed8881.workers.dev)
+- Mirror: [Netlify](https://vanta-social-links-profile.netlify.app)
 
 ## My process
 
