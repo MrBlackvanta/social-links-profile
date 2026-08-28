@@ -1,50 +1,30 @@
-# Frontend Mentor - Social links profile solution
+# Social links profile
 
-This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
-## Table of contents
-
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
-
-## Overview
-
-### Screenshot
+My solution to the [Social links profile](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ)
+challenge on Frontend Mentor.
 
 ![](./screenshot.webp)
 
-### Links
+- Live: https://social-links-profile.abdelrhman-ahmed8881.workers.dev
+- Code: https://github.com/MrBlackvanta/social-links-profile
 
-- Solution URL: [GitHub](https://github.com/MrBlackvanta/social-links-profile)
-- Live Site URL: [Cloudflare](https://social-links-profile.abdelrhman-ahmed8881.workers.dev)
+## Built with
 
-## My process
-
-### Built with
-
-- React + Vite
+- React and Vite
 - TypeScript
-- Tailwind CSS v4 (`@theme` tokens, `@utility` for typography and social-link styles)
-- Component-based layout (`ProfileCard` in `src/components`)
-- Mobile-first, centered card on a full-viewport background (`h-dvh`, `max-w-96`)
-- Inter variable font loaded locally (`src/assets/fonts`)
-- Avatar and social assets under `src/assets` (e.g. `avatar-abdelrhman.webp`)
+- Tailwind CSS v4
+- Inter, self-hosted
 
-### What I learned
+## Notes
 
-- Turning a profile mockup into a small React tree: semantic regions (`article`, `figure`, list of links) without over-abstracting.
-- Using Tailwind v4’s theme layer for brand colors and reusable `@utility` classes (`text-preset-*`, `social-link`) so JSX stays readable.
-- Building accessible social links: visible labels live inside each `<a>` so the link name matches what sighted users read and screen readers announce it correctly.
-- Pairing Vite path aliases with TypeScript for clean imports (`components`, `assets`).
-- Keeping the profile card as a focused, mostly static component while `App` owns page chrome (background, footer attribution).
+The links are a real `<ul>` of `<a>` elements with visible text labels, so the
+accessible name matches what's on screen and there's nothing to patch with `aria-label`.
+
+Typography and the link styling are `@utility` classes in the stylesheet. The card
+itself is a mostly static component and the page chrome sits in `App`.
 
 ## Author
 
-- UpWork - [Abdelrhman Abdelaal](https://www.upwork.com/freelancers/mrblackvanta)
-- Frontend Mentor - [@MrBlackvanta](https://www.frontendmentor.io/profile/MrBlackvanta)
-- LinkedIn - [Abdelrhman Abdelaal](https://www.linkedin.com/in/abdelrhman-vanta/)
+- [LinkedIn](https://www.linkedin.com/in/abdelrhman-vanta/)
+- [UpWork](https://www.upwork.com/freelancers/mrblackvanta)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/MrBlackvanta)
