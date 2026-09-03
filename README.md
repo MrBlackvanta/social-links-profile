@@ -10,18 +10,11 @@ challenge on Frontend Mentor.
 
 ## Built with
 
-- React and Vite
+- React
+- Vite
 - TypeScript
-- Tailwind CSS v4
+- Tailwind CSS
 - Inter, self-hosted
-
-## Notes
-
-The links are a real `<ul>` of `<a>` elements with visible text labels, so the
-accessible name matches what's on screen and there's nothing to patch with `aria-label`.
-
-Typography and the link styling are `@utility` classes in the stylesheet. The card
-itself is a mostly static component and the page chrome sits in `App`.
 
 ## Author
 
